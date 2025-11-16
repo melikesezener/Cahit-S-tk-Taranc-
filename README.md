@@ -1,2 +1,2 @@
-# Cahit-S-tk-Taranc-
+# cahitsitkitaranci
 Cahit Sıtkı Tarancı'yı anlatan bir web sayfası
