@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cahit Sıtkı Tarancı - Otuz Beş Yaş Şairi</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind CSS CDN --><script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* Özel Tailwind Yapılandırması */
         tailwind.config = {
@@ -80,11 +79,9 @@
 </head>
 <body class="min-h-screen">
 
-    <!-- Ana Konteyner -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <!-- Ana Konteyner --><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
 
-        <!-- Header ve Başlık Bölümü -->
-        <header class="text-center mb-16 pt-8">
+        <!-- Header ve Başlık Bölümü --><header class="text-center mb-16 pt-8">
             <h1 class="text-6xl sm:text-7xl font-serif font-bold text-taranci-accent mb-2 tracking-wider drop-shadow-lg">
                 Cahit Sıtkı Tarancı
             </h1>
@@ -93,21 +90,17 @@
             </p>
         </header>
 
-        <!-- Biyografi ve Portre Bölümü -->
-        <section id="biyografi" class="grid lg:grid-cols-3 gap-12 items-center mb-20 p-8 bg-taranci-dark/50 rounded-3xl shadow-fancy">
-            <!-- Portre ve Kısa Bilgi -->
-            <div class="lg:col-span-1 text-center">
-                <!-- Portre Alanı -->
-                <div class="w-64 h-64 mx-auto mb-6 bg-gray-700 rounded-full overflow-hidden shadow-2xl border-4 border-taranci-accent/70">
-                    <img src="https://placehold.co/256x256/333333/AAAAAA?text=Cahit+Sıtkı+Tarancı" alt="Cahit Sıtkı Tarancı Portresi" class="w-full h-full object-cover opacity-80" onerror="this.onerror=null;this.src='https://placehold.co/256x256/333333/AAAAAA?text=Şair';">
-                    <!--  -->
+        <!-- Biyografi ve Portre Bölümü --><section id="biyografi" class="grid lg:grid-cols-3 gap-12 items-center mb-20 p-8 bg-taranci-dark/50 rounded-3xl shadow-fancy">
+            <!-- Portre ve Kısa Bilgi --><div class="lg:col-span-1 text-center">
+                <!-- Portre Alanı --><div class="w-64 h-64 mx-auto mb-6 bg-gray-700 rounded-full overflow-hidden shadow-2xl border-4 border-taranci-accent/70">
+                    <!-- GitHub Raw URL'si kullanıldı. blob.github.com uzantısı doğrudan görseli yüklemeyebilir. -->
+                    <img src="https://raw.githubusercontent.com/melikesezener/Cahit-S-tk-Taranc-/main/src/yasarkemalprofil.jpg" alt="Cahit Sıtkı Tarancı Portresi" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='https://placehold.co/256x256/333333/AAAAAA?text=Şair';" >
                 </div>
                 <h2 class="text-3xl font-serif text-taranci-accent">Otuz Beş Yaş Şairi</h2>
                 <p class="text-taranci-secondary/70 mt-2">1910 - 1956</p>
             </div>
 
-            <!-- Biyografi Metni -->
-            <div class="lg:col-span-2">
+            <!-- Biyografi Metni --><div class="lg:col-span-2">
                 <h3 class="section-title text-4xl text-taranci-secondary font-serif">Kısa Hayatı ve Sanatı</h3>
                 <p class="text-lg leading-relaxed text-gray-300">
                     Cumhuriyet dönemi Türk şiirinin önde gelen isimlerinden olan Cahit Sıtkı Tarancı, 1910 yılında Diyarbakır'da doğdu. Şiirlerinde ölüm, yaşama sevinci, aşk ve zamanın geçiciliği gibi temaları ustalıkla işledi. Sade, samimi ve duru bir dili benimsemiş, hece ölçüsü ve serbest şiiri birleştirerek kendine has bir üslup oluşturmuştur. Türk şiirinin en bilinen eserlerinden olan **"Otuz Beş Yaş"** şiiri, onun ismini ölümsüzleştiren başyapıtıdır. Şair, 1946 yılında yayımladığı "Otuz Beş Yaş" adlı kitabıyla CHP Şiir Yarışması'nda birincilik ödülünü kazanmıştır.
@@ -115,14 +108,12 @@
             </div>
         </section>
         
-        <!-- En Beğenilen Şiirler / Mısralar Bölümü (YENİ ODAK) -->
-        <section id="unlu_siirler" class="mb-20 pt-8">
+        <!-- En Beğenilen Şiirler / Mısralar Bölümü --><section id="unlu_siirler" class="mb-20 pt-8">
             <h3 class="section-title text-4xl text-taranci-accent font-serif mb-8">En Beğenilen Şiirlerinden Vurucu Dizeler</h3>
 
             <div class="grid md:grid-cols-3 gap-8">
                 
-                <!-- Vurucu Dize 1: Otuz Beş Yaş -->
-                <div onclick="openModal('otuzbesyas')" class="card-hover poem-card-1 p-8 rounded-xl shadow-fancy border border-taranci-accent/30 cursor-pointer flex flex-col justify-between">
+                <!-- Vurucu Dize 1: Otuz Beş Yaş --><div onclick="openModal('otuzbesyas')" class="card-hover poem-card-1 p-8 rounded-xl shadow-fancy border border-taranci-accent/30 cursor-pointer flex flex-col justify-between">
                     <div>
                         <p class="text-xl font-serif text-taranci-accent/90 mb-3 uppercase tracking-wider">
                             Otuz Beş Yaş
@@ -135,8 +126,7 @@
                     <p class="text-right text-sm text-gray-400 mt-4">Devamını Oku →</p>
                 </div>
 
-                <!-- Vurucu Dize 2: Yaşamak -->
-                <div class="card-hover poem-card-2 p-8 rounded-xl shadow-fancy border border-taranci-accent/30">
+                <!-- Vurucu Dize 2: Yaşamak --><div class="card-hover poem-card-2 p-8 rounded-xl shadow-fancy border border-taranci-accent/30">
                     <p class="text-xl font-serif text-taranci-accent/90 mb-3 uppercase tracking-wider">
                         Yaşamak
                     </p>
@@ -149,8 +139,7 @@
                     </p>
                 </div>
 
-                <!-- Vurucu Dize 3: Memleket İsterim -->
-                <div class="card-hover poem-card-3 p-8 rounded-xl shadow-fancy border border-taranci-accent/30">
+                <!-- Vurucu Dize 3: Memleket İsterim --><div class="card-hover poem-card-3 p-8 rounded-xl shadow-fancy border border-taranci-accent/30">
                     <p class="text-xl font-serif text-taranci-accent/90 mb-3 uppercase tracking-wider">
                         Memleket İsterim
                     </p>
@@ -166,14 +155,12 @@
         </section>
 
 
-        <!-- Eserleri (Kitapları) Bölümü -->
-        <section id="eserler" class="mb-20 pt-8">
+        <!-- Eserleri (Kitapları) Bölümü --><section id="eserler" class="mb-20 pt-8">
             <h3 class="section-title text-4xl text-taranci-secondary font-serif mb-8">Yayımlanmış Eserleri (Kitapları)</h3>
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 
-                <!-- Kitap 1: Ömrümde Sükut -->
-                <div class="card-hover p-6 bg-taranci-dark rounded-xl shadow-lg border border-taranci-accent/20 text-center">
+                <!-- Kitap 1: Ömrümde Sükut --><div class="card-hover p-6 bg-taranci-dark rounded-xl shadow-lg border border-taranci-accent/20 text-center">
                     <div class="w-24 h-36 mx-auto mb-4 bg-gray-700 rounded-md overflow-hidden shadow-xl">
                          <img src="https://placehold.co/96x144/555555/EEEEEE?text=Ömrümde+Sükut" alt="Ömrümde Sükut Kapak" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='https://placehold.co/96x144/555555/EEEEEE?text=Kitap';">
                     </div>
@@ -182,8 +169,7 @@
                     <p class="text-xs text-taranci-secondary/70 mt-2">1933</p>
                 </div>
 
-                <!-- Kitap 2: Otuz Beş Yaş -->
-                <div class="card-hover p-6 bg-taranci-dark rounded-xl shadow-lg border border-taranci-accent/20 text-center">
+                <!-- Kitap 2: Otuz Beş Yaş --><div class="card-hover p-6 bg-taranci-dark rounded-xl shadow-lg border border-taranci-accent/20 text-center">
                     <div class="w-24 h-36 mx-auto mb-4 bg-gray-700 rounded-md overflow-hidden shadow-xl">
                         <img src="https://placehold.co/96x144/A06A00/FFFFFF?text=Otuz+Beş+Yaş" alt="Otuz Beş Yaş Kapak" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='https://placehold.co/96x144/A06A00/FFFFFF?text=Kitap';">
                     </div>
@@ -192,8 +178,7 @@
                     <p class="text-xs text-taranci-secondary/70 mt-2">1946</p>
                 </div>
 
-                <!-- Kitap 3: Düşten Güzel -->
-                <div class="card-hover p-6 bg-taranci-dark rounded-xl shadow-lg border border-taranci-accent/20 text-center">
+                <!-- Kitap 3: Düşten Güzel --><div class="card-hover p-6 bg-taranci-dark rounded-xl shadow-lg border border-taranci-accent/20 text-center">
                     <div class="w-24 h-36 mx-auto mb-4 bg-gray-700 rounded-md overflow-hidden shadow-xl">
                         <img src="https://placehold.co/96x144/2C3E50/EFEFEF?text=Düşten+Güzel" alt="Düşten Güzel Kapak" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='https://placehold.co/96x144/2C3E50/EFEFEF?text=Kitap';">
                     </div>
@@ -202,8 +187,7 @@
                     <p class="text-xs text-taranci-secondary/70 mt-2">1952</p>
                 </div>
 
-                <!-- Kitap 4: Ziya'ya Mektuplar -->
-                <div class="card-hover p-6 bg-taranci-dark rounded-xl shadow-lg border border-taranci-accent/20 text-center">
+                <!-- Kitap 4: Ziya'ya Mektuplar --><div class="card-hover p-6 bg-taranci-dark rounded-xl shadow-lg border border-taranci-accent/20 text-center">
                     <div class="w-24 h-36 mx-auto mb-4 bg-gray-700 rounded-md overflow-hidden shadow-xl">
                         <img src="https://placehold.co/96x144/9B59B6/FFFFFF?text=Ziya'ya+Mektuplar" alt="Ziya'ya Mektuplar Kapak" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='https://placehold.co/96x144/9B59B6/FFFFFF?text=Kitap';">
                     </div>
@@ -215,13 +199,11 @@
             </div>
         </section>
 
-        <!-- Seçilmiş Şiirler Bölümü (Kaldırıldı/Modal'a bağlandı) -->
-        <section id="siirler" class="mb-20">
+        <!-- Diğer Şiirler ve Notlar Bölümü --><section id="siirler" class="mb-20">
             <h3 class="section-title text-4xl text-taranci-secondary font-serif mb-8">Diğer Şiirler ve Notlar</h3>
 
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Şiir 1: Otuz Beş Yaş (Modal'a yönlendirildi) -->
-                <div onclick="openModal('otuzbesyas')" class="card-hover p-6 bg-taranci-dark rounded-xl shadow-lg border border-taranci-accent/20 cursor-pointer">
+                <!-- Şiir 1: Otuz Beş Yaş (Modal'a yönlendirildi) --><div onclick="openModal('otuzbesyas')" class="card-hover p-6 bg-taranci-dark rounded-xl shadow-lg border border-taranci-accent/20 cursor-pointer">
                     <h4 class="text-2xl font-serif font-semibold text-taranci-accent mb-3">Otuz Beş Yaş (Tam Metin)</h4>
                     <p class="italic text-taranci-secondary/80 mb-4">Şiirde ölüm teması ve yaşlanma endişesi...</p>
                     <div class="text-sm text-gray-400 h-20 overflow-hidden line-clamp-3">
@@ -235,8 +217,7 @@
                     </button>
                 </div>
 
-                <!-- Şiir 2: Desem ki (Artık yukarıda büyük kartta) -->
-                <div class="card-hover p-6 bg-taranci-dark rounded-xl shadow-lg border border-taranci-accent/20">
+                <!-- Şiir 2: Desem ki --><div class="card-hover p-6 bg-taranci-dark rounded-xl shadow-lg border border-taranci-accent/20">
                     <h4 class="text-2xl font-serif font-semibold text-taranci-accent mb-3">Desem ki (Tam Metin)</h4>
                     <p class="italic text-taranci-secondary/80 mb-4">"Hava bedava, bulut bedava..."</p>
                     <p class="text-sm text-gray-400 h-20 overflow-hidden line-clamp-3">
@@ -245,8 +226,7 @@
                     </p>
                 </div>
 
-                <!-- Şiir 3: Gün Eksilmesin Penceremden -->
-                <div class="card-hover p-6 bg-taranci-dark rounded-xl shadow-lg border border-taranci-accent/20">
+                <!-- Şiir 3: Gün Eksilmesin Penceremden --><div class="card-hover p-6 bg-taranci-dark rounded-xl shadow-lg border border-taranci-accent/20">
                     <h4 class="text-2xl font-serif font-semibold text-taranci-accent mb-3">Gün Eksilmesin Penceremden</h4>
                     <p class="italic text-taranci-secondary/80 mb-4">"Bu dizeler ömrün kıymetini anlatır."</p>
                     <p class="text-sm text-gray-400 h-20 overflow-hidden line-clamp-3">
@@ -259,8 +239,7 @@
         </section>
     </div>
 
-    <!-- Footer -->
-    <footer class="bg-taranci-dark/70 text-center py-6 border-t border-taranci-accent/20">
+    <!-- Footer --><footer class="bg-taranci-dark/70 text-center py-6 border-t border-taranci-accent/20">
         <p class="text-sm text-gray-400">
             &copy; 2025 Cahit Sıtkı Tarancı Anma Sayfası | Şiir ve Edebiyat
         </p>
@@ -269,8 +248,7 @@
         </p>
     </footer>
 
-    <!-- Şiir Modal (Otuz Beş Yaş) -->
-    <div id="otuzbesyas-modal" class="fixed inset-0 bg-black bg-opacity-70 z-50 flex items-center justify-center p-4 hidden">
+    <!-- Şiir Modal (Otuz Beş Yaş) --><div id="otuzbesyas-modal" class="fixed inset-0 bg-black bg-opacity-70 z-50 flex items-center justify-center p-4 hidden">
         <div class="bg-taranci-bg border-2 border-taranci-accent w-full max-w-2xl p-8 rounded-xl shadow-fancy relative">
             <h3 class="text-4xl font-serif font-bold text-taranci-accent mb-6 text-center">Otuz Beş Yaş</h3>
             <pre class="whitespace-pre-wrap font-serif text-lg leading-relaxed text-gray-200 h-96 overflow-y-auto custom-scrollbar p-3 bg-taranci-dark rounded-lg shadow-inner-dark">
